@@ -1,0 +1,30 @@
+body{
+    background-image: url(background.png) ;
+}
+h1{
+ color: rgb(95, 133, 81); 
+    text-align: center;
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#date{
+   font-size: 30px;
+   color: rgb(75, 3, 3);
+   border-bottom: solid;
+}
+.gallery{
+display: flex;
+gap: 10px;
+justify-content: center;
+}
+.gallery div{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+   gap: 15px;
+}
+.gallery img{
+    border-radius: 10px;
+}
